@@ -102,8 +102,8 @@ LEARN.exam({
     <ul>
       <li><strong>Taschenrechner (gesichert):</strong> nicht programmierbar, netzunabhängig (Batterie/Solar) und ohne Kommunikationsfunktion. Handy, Smartwatch und programmierbare Rechner sind tabu. Nimm eine analoge Armbanduhr mit.</li>
       <li><strong>Formelsammlung, Tabellenbuch, Wörterbuch (unsicher):</strong> Eine offizielle Hilfsmittelliste speziell für die IT-Berufe ist nicht veröffentlicht. Nach allem, was bekannt ist, sind sie <em>nicht</em> erlaubt – verbindlich sind das Deckblatt des Aufgabensatzes und deine Einladung.</li>
-      <li><strong>Belegsatz:</strong> Anlage zum Aufgabensatz mit Datenblättern, Angeboten, Rechnungen, Tabellen und Notationshilfen. Seit der 2. Katalogauflage gibt es <strong>einheitliche Belegsätze für alle IT-Berufe</strong>. Die Notationen, die darin vorkommen können (z. B. Netzplanknoten, UML, ER-Modell, EPK), sind im Anhang des Prüfungskatalogs abgedruckt – lerne sie vorher.</li>
-      <li><strong>Formeln</strong> wie P = U × I und W = P × t stehen nicht (mehr) im Katalog und nicht im Belegsatz, werden aber weiterhin gerechnet. Du musst sie auswendig können.</li>
+      <li><strong>Belegsatz:</strong> Anlage zum Aufgabensatz mit Datenblättern, Angeboten, Rechnungen, Tabellen und Notationshilfen. Seit der 2. Katalogauflage gibt es <strong>einheitliche Belegsätze für alle IT-Berufe</strong>. Die Notationen, die darin vorkommen können, sind im Anhang des Prüfungskatalogs abgedruckt (u. a. Netzplanknoten, UML-Diagramme, EPK, BPMN, Symbole für Netzwerkpläne, Dezimal- und Binärpräfixe sowie eine Musterrechnung) – lerne sie vorher.</li>
+      <li><strong>Formeln</strong> wie P = U × I und W = P × t stehen laut Prüferhinweisen nicht (mehr) im Katalog, werden aber weiterhin gerechnet. Verlass dich nicht darauf, dass der Belegsatz sie liefert – du musst sie auswendig können.</li>
     </ul>
     <div class="callout achtung"><strong>Prüfungsfalle Einheiten (Präfix-Regel der ZPA):</strong> <strong>Datenmengen</strong> werden mit <strong>Binärpräfixen</strong> angegeben: 1 KiB = 2¹⁰ = 1.024 Byte, 1 MiB = 2²⁰ Byte, 1 GiB = 2³⁰ Byte, 1 TiB = 2⁴⁰ Byte. <strong>Datenraten, Leistung und Strom</strong> werden mit <strong>Dezimalpräfixen</strong> angegeben: 1 Mbit/s = 10⁶ bit/s, 1 kW = 1.000 W. Gibt die Aufgabe selbst eine Einheit vor (z. B. „in MB“), übernimmst du genau diese.</div>
     <div class="callout formel"><strong>Formeln, die du ohne Belegsatz können musst:</strong><br>
@@ -179,7 +179,7 @@ LEARN.exam({
       <tr><td>Dateigrößen berechnen</td><td>29</td><td>KiB/MiB/GiB sauber unterscheiden</td></tr>
       <tr><td>IPv6</td><td>28</td><td>kürzen, ausschreiben, Unterschiede zu IPv4</td></tr>
       <tr><td>Kosten berechnen</td><td>27</td><td>monatliche Kosten, Stundensätze, Rabatt/Skonto</td></tr>
-      <tr><td>KI</td><td>20</td><td>erst seit 2023, seit 2025 regelmäßig</td></tr>
+      <tr><td>KI</td><td>20</td><td>erstmals Frühjahr 2023, 2025 in beiden Prüfungen</td></tr>
       <tr><td>Leasing</td><td>19</td><td>Kauf vs. Leasing vs. Kredit rechnen und bewerten</td></tr>
     </tbody></table>
     <p>Nach Themenclustern kamen Hardware (10 von 10 Prüfungen), Netzwerktechnik, Softwareentwicklung und Wirtschaftlichkeit (je 9 von 10) sowie IT-Sicherheit und Projektmanagement (je 8 von 10) fast immer vor. In der Checkliste sind die entsprechenden Punkte mit <strong>„häufig“</strong> markiert. Eine Garantie für die nächste Prüfung ist das nicht – die ZPA kann jedes Katalogthema prüfen.</p>
@@ -187,7 +187,7 @@ LEARN.exam({
     <h5>So nutzt du dieses Portal für die AP1</h5>
     <ol>
       <li><strong>Themen &amp; To-dos:</strong> Geh die Checkliste Bereich für Bereich durch und hake nur ab, was du wirklich ohne Hilfe kannst. Mit dem Filter „Offen“ siehst du deine Lücken, mit „Häufig“ die wichtigsten Punkte zuerst.</li>
-      <li><strong>Lernzettel in LF 1 bis 6:</strong> Die Chips an jedem Bereich führen dich zu den passenden Lernfeldern – überwiegend LF 1 bis 6; einige Themen (z. B. Sensoren, ER-Modell, IPv6) werden in LF 7 bis 9 vertieft. Alle Lernzettel, Übungen und Fragen mit dem Etikett „AP1“ sind prüfungsrelevant.</li>
+      <li><strong>Lernzettel:</strong> Fast jeder Checklisten-Punkt verlinkt direkt auf den passenden Lernzettel, und die Chips an jedem Bereich führen dich zu den Lernfeldern. Der Schwerpunkt liegt auf LF 1 bis 6. Manche Themen werden in späteren Lernfeldern ausführlicher behandelt, z. B. Sensoren (LF 7), ER-Modell (LF 8), MAC-Adresse und DHCP (LF 9), Virtualisierung und Datensicherung (LF 10) sowie Projektplanung, Abnahme und Risikomanagement (LF 12). Diese Lernzettel helfen dir auch für die AP1, gehen aber teilweise über den AP1-Stoff hinaus. Alle Lernzettel, Übungen und Fragen mit dem Etikett „AP1“ sind prüfungsrelevant.</li>
       <li><strong>Rechner &amp; Trainer:</strong> Übe Rechenaufgaben mit den Werkzeugen „IPv4-Subnetting-Trainer“, „IPv6-Trainer“, „Netzplan &amp; kritischer Pfad“, „Nutzwertanalyse“, „Speicher &amp; Übertragung“, „Strom, USV &amp; Elektrotechnik“ und „Angebotsvergleich &amp; Kalkulation“. Rechne erst selbst und kontrolliere dann.</li>
       <li><strong>Quiz und Karteikarten:</strong> Der Reiter „Quiz“ auf dieser Seite sammelt alle Fragen mit AP1-Bezug aus allen Lernfeldern. Im Modus „Prüfung“ läuft eine Uhr mit.</li>
       <li><strong>Probeklausur:</strong> Bearbeite sie wie die echte Prüfung – 90-Minuten-Timer starten, auf Papier lösen, danach Musterlösung aufdecken und dich ehrlich selbst bewerten. Das Portal rechnet deine Punkte in die IHK-Note um.</li>
@@ -210,7 +210,7 @@ LEARN.exam({
 
   areas: [
     /* ---------- Fragenkomplex 01: Arbeitsaufgaben planen, vorbereiten und durchführen ---------- */
-    { id: "pm", title: "01.01 Projektmanagement: Merkmale, Planung, Vorgehensmodelle, Team", lf: ["lf01", "lf05", "lf06"],
+    { id: "pm", title: "01.01 Projektmanagement: Merkmale, Planung, Vorgehensmodelle, Team", lf: ["lf01", "lf05", "lf06", "lf12", "kommunikation"],
       items: [
         { id: "ap1-pm-1", text: "Ich kann die Merkmale eines Projekts aufzählen (einmalig, klares Ziel, befristet, begrenzte Ressourcen, neuartig/komplex, eigene Projektorganisation, Risiko) und an einem Fallbeispiel begründen, ob ein Vorhaben ein Projekt ist.", ref: "lf01/projekt-praesentation" },
         { id: "ap1-pm-2", text: "Ich kann für ein IT-Vorhaben (z. B. den Rollout von 20 Arbeitsplätzen) einen Projektstrukturplan mit Teilaufgaben und Arbeitspaketen aufstellen.", ref: "lf12/psp-zeitplanung" },
@@ -227,7 +227,7 @@ LEARN.exam({
         { id: "ap1-pm-13", text: "Ich kann die Teamphasen nach Tuckman (Forming, Storming, Norming, Performing, Adjourning) an typischem Verhalten erkennen und passende Maßnahmen der Projektleitung nennen.", ref: "kommunikation/team" },
         { id: "ap1-pm-14", text: "Ich kann Methoden der Reflexion (Feedbackregeln, Retrospektive, Lessons Learned) beschreiben und erklären, wie sie Folgeprojekte verbessern.", ref: "lf12/projektabschluss" }
       ] },
-    { id: "machbarkeit", title: "01.02 Machbarkeit und Wirtschaftlichkeit von Projekten", lf: ["lf01", "lf02"],
+    { id: "machbarkeit", title: "01.02 Machbarkeit und Wirtschaftlichkeit von Projekten", lf: ["lf01", "lf02", "lf12"],
       items: [
         { id: "ap1-mw-1", text: "Ich kann die Machbarkeit eines Vorhabens prüfen: Kosten zusammenrechnen, mit dem Budget vergleichen und eine begründete Aussage treffen – auch zur technischen, personellen und zeitlichen Machbarkeit.", ref: "lf01/machbarkeit-kalkulation" },
         { id: "ap1-mw-2", text: "Ich kann eine Vorkalkulation aufstellen (Personalkosten = Stunden × Stundensatz, Sachkosten, Gemeinkostenzuschlag, ggf. Gewinnzuschlag und Umsatzsteuer).", hot: true, ref: "lf01/machbarkeit-kalkulation" },
@@ -236,7 +236,7 @@ LEARN.exam({
         { id: "ap1-mw-5", text: "Ich kann die Stakeholder eines IT-Projekts ermitteln, sie nach Einfluss und Interesse einordnen (Stakeholder-Matrix) und daraus Maßnahmen für den Umgang mit ihnen ableiten.", ref: "lf12/anforderungsanalyse" },
         { id: "ap1-mw-6", text: "Ich kann eine Risikoanalyse durchführen: Risiken sammeln, mit Eintrittswahrscheinlichkeit × Schadenshöhe bewerten und eine Strategie zuordnen (vermeiden, vermindern, übertragen, akzeptieren).", ref: "lf12/risikomanagement" }
       ] },
-    { id: "auftrag", title: "01.03 Aufträge im Geschäftsprozess: Kommunikation, Störungen, Tickets, Support-Level, KI", lf: ["lf06"],
+    { id: "auftrag", title: "01.03 Aufträge im Geschäftsprozess: Kommunikation, Störungen, Tickets, Support-Level, KI", lf: ["lf06", "kommunikation"],
       items: [
         { id: "ap1-ab-1", text: "Ich kann die Kommunikation mit Kundinnen und Kunden während eines Auftrags passend gestalten (Rückfragen, Terminabsprachen, Statusmeldungen, sachliche E-Mails).", ref: "kommunikation/kundengespraech" },
         { id: "ap1-ab-2", text: "Ich kann Incident (Störung schnell beheben, ggf. mit Workaround) und Problem (Ursache finden und dauerhaft beseitigen) unterscheiden und den Ablauf einer Störungsbearbeitung beschreiben (erfassen, klassifizieren, priorisieren, diagnostizieren, lösen, dokumentieren, schließen).", ref: "lf06/incident" },
@@ -253,7 +253,7 @@ LEARN.exam({
         { id: "ap1-mk-3", text: "Ich kann Zielgruppen anhand von Kriterien festlegen und voneinander abgrenzen (privat/gewerblich, Branche, Unternehmensgröße, Bedarf, Budget, IT-Kenntnisse).", ref: "lf01/markt-wettbewerb" },
         { id: "ap1-mk-4", text: "Ich kann Angebote quantitativ (Preis, Lieferzeit, Konditionen, Folgekosten) und qualitativ (Service, Zuverlässigkeit, Garantie, Nachhaltigkeit) bewerten und eine Bezugskalkulation rechnen (Listenpreis − Rabatt = Zieleinkaufspreis − Skonto = Bareinkaufspreis + Bezugskosten = Bezugspreis).", ref: "lf02/angebotsvergleich" }
       ] },
-    { id: "bedarf", title: "02.02 Zielgruppengerechte Bedarfsanalyse", lf: ["lf02"],
+    { id: "bedarf", title: "02.02 Zielgruppengerechte Bedarfsanalyse", lf: ["lf02", "lf12"],
       items: [
         { id: "ap1-bd-1", text: "Ich kann eine eigene Datenerhebung planen (Befragung, Interview, Fragebogen, Beobachtung) und dafür passende offene und geschlossene Fragen formulieren.", ref: "lf12/anforderungsanalyse" },
         { id: "ap1-bd-2", text: "Ich kann vorhandene Daten auswerten (Inventarliste, Ticketstatistik, Nutzerprofile, Anforderungen an Büroarbeitsplätze) und daraus Anforderungen ableiten.", ref: "lf02/kundenbedarf" },
@@ -268,7 +268,7 @@ LEARN.exam({
         { id: "ap1-kb-4", text: "Ich kann vom ermittelten Bedarf zu einem Angebot kommen und seine Bestandteile nennen (Leistungsbeschreibung, Preise, Liefer- und Zahlungsbedingungen, Gültigkeitsdauer).", ref: "kommunikation/kundengespraech" },
         { id: "ap1-kb-5", text: "Ich kann einen englischen Fachtext (Datenblatt, Hersteller-Mail, Auszug aus einem Handbuch) verstehen und die geforderten Informationen auf Deutsch wiedergeben oder erklären.", hot: true, ref: "englisch/pruefung-lesen" }
       ] },
-    { id: "information", title: "02.04 Informationen aufbereiten, präsentieren und Quellen auswerten", lf: ["lf01", "lf02", "englisch"],
+    { id: "information", title: "02.04 Informationen aufbereiten, präsentieren und Quellen auswerten", lf: ["lf01", "lf02", "englisch", "kommunikation"],
       items: [
         { id: "ap1-in-1", text: "Ich kann technische und kaufmännische Texte auf Deutsch und Englisch auswerten (Datenblätter, Angebote, Rechnungen, Handbücher) und die wichtigen Kennwerte herausziehen.", hot: true, ref: "englisch/datenblatt-manual" },
         { id: "ap1-in-2", text: "Ich kann gängige englische Fachbegriffe übersetzen und erklären (z. B. power consumption, throughput, latency, warranty, backward compatible, daisy chaining, heater, infrared/IR).", hot: true, ref: "englisch/vokabeln-hardware" },
@@ -276,7 +276,7 @@ LEARN.exam({
         { id: "ap1-in-4", text: "Ich kann Quellen kritisch prüfen (Autor, Aktualität, Seriosität, Interessen), das Urheberrecht bei Bildern und Texten beachten und Quellen korrekt angeben.", ref: "kommunikation/praesentation" },
         { id: "ap1-in-5", text: "Ich kann eine kurze, sachliche Kundeninformation oder E-Mail schreiben (Betreff, Anrede, Kernaussage, Handlungsaufforderung, Gruß).", ref: "kommunikation/schriftlich" }
       ] },
-    { id: "nwa", title: "02.05 Marketing unterstützen: Nutzwertanalyse und Vertriebswege", lf: ["lf02"],
+    { id: "nwa", title: "02.05 Marketing unterstützen: Nutzwertanalyse und Vertriebswege", lf: ["lf01", "lf02", "lf12", "wiso"],
       items: [
         { id: "ap1-nw-1", text: "Ich kann eine Nutzwertanalyse vollständig durchführen: Kriterien festlegen, Gewichtungen auf 100 % verteilen, Punkte je Alternative vergeben, gewichtete Summen berechnen und die Entscheidung begründen.", hot: true, ref: "lf02/angebotsvergleich" },
         { id: "ap1-nw-2", text: "Ich kann die Punkte einer Nutzwertanalyse selbst aus Datenblättern ableiten (z. B. schnellster Drucker 3 Punkte, langsamster 1 Punkt) und die Punkteskala nachvollziehbar erklären.", hot: true, ref: "lf12/wirtschaftlichkeit-entscheidung" },
@@ -284,7 +284,7 @@ LEARN.exam({
         { id: "ap1-nw-4", text: "Ich kann direkten Vertrieb (eigener Außendienst, Onlineshop) und indirekten Vertrieb (Fachhandel, Systemhaus, Distributor) unterscheiden und Vor- und Nachteile für ein IT-Produkt nennen.", ref: "lf01/markt-wettbewerb" }
       ] },
     /* ---------- Fragenkomplex 03: Marktgängige IT-Systeme und kundenspezifische Lösungen beurteilen ---------- */
-    { id: "hwsw", title: "03.01 Marktgängige Hard- und Software beurteilen", lf: ["lf02", "lf03", "lf07"],
+    { id: "hwsw", title: "03.01 Marktgängige Hard- und Software beurteilen", lf: ["lf02", "lf03", "lf07", "lf10"],
       items: [
         { id: "ap1-hs-1", text: "Ich kann IT-Systeme nach funktionalen, ökonomischen und ökologischen Kriterien vergleichen (Ergonomie, Leistung, einmalige und laufende Kosten, Nutzungsdauer, Energiebedarf, Reparierbarkeit und Recycling).", ref: "lf02/energie-green-it" },
         { id: "ap1-hs-2", text: "Ich kann Aufgabe und Kenngrößen der Kernkomponenten erklären: CPU (Kerne, Threads, Takt, Cache, TDP), Mainboard (Sockel, Chipsatz, PCIe-Steckplätze, M.2), RAM (DDR4/DDR5, Dual-Channel, ECC), Massenspeicher, Netzteil (Nennleistung, 80-PLUS-Effizienz) und Grafikkarte.", hot: true, ref: "lf02/mainboard-cpu" },
@@ -296,7 +296,7 @@ LEARN.exam({
         { id: "ap1-hs-8", text: "Ich kann KI-Software (z. B. generative Assistenten, Übersetzung, Bilderkennung) beschreiben und nach Einsatzzweck, Kosten, Datenschutz (Serverstandort, Nutzung der Eingaben als Trainingsdaten) und Zuverlässigkeit beurteilen.", hot: true, ref: "lf02/betriebssysteme" },
         { id: "ap1-hs-9", text: "Ich kann lokale virtuelle Desktops (VDI im eigenen Rechenzentrum) und Cloud-Desktops (DaaS) unterscheiden und erklären, warum dafür oft Thin Clients ausreichen.", ref: "lf10/virtualisierung" }
       ] },
-    { id: "systeme", title: "03.02 Typische IT-Systeme und ihre Einsatzbereiche", lf: ["lf02", "lf03", "lf09"],
+    { id: "systeme", title: "03.02 Typische IT-Systeme und ihre Einsatzbereiche", lf: ["lf02", "lf03", "lf09", "lf11", "kommunikation"],
       items: [
         { id: "ap1-sy-1", text: "Ich kann Anforderungen an Kommunikationssysteme wie Videokonferenz- und Social-Media-Lösungen beschreiben (Bandbreite, Kamera und Headset, Datenschutz, Aufzeichnung).", ref: "kommunikation/team" },
         { id: "ap1-sy-2", text: "Ich kann Client-Server- und Peer-to-Peer-Netze vergleichen (zentrale Verwaltung, Sicherheit, Kosten, Skalierbarkeit).", ref: "lf03/netzwerk-grundlagen" },
@@ -320,7 +320,7 @@ LEARN.exam({
         { id: "ap1-le-11", text: "Ich kann elektrische Größen berechnen: P = U × I bzw. I = P ÷ U (z. B. USB 5 V × 2,4 A = 12 W), Wirkungsgrad η = P_ab ÷ P_zu (Netzteil gibt 450 W ab, η = 0,9 → Aufnahme 500 W), Energie W = P × t und Energiekosten = kWh × Preis.", hot: true, ref: "lf03/leistung-energie" },
         { id: "ap1-le-12", text: "Ich kann PoE-Standards einordnen (IEEE 802.3af: 15,4 W am Switch-Port bzw. 12,95 W am Gerät; 802.3at: 30 W bzw. 25,5 W; 802.3bt: 60 W oder 90 W am Port) und prüfen, ob das PoE-Budget eines Switches für mehrere Endgeräte reicht.", hot: true, ref: "lf03/leistung-energie" }
       ] },
-    { id: "wirtschaftlichkeit", title: "03.04 Wirtschaftlichkeit von IT-Systemen", lf: ["lf02"],
+    { id: "wirtschaftlichkeit", title: "03.04 Wirtschaftlichkeit von IT-Systemen", lf: ["lf01", "lf02"],
       items: [
         { id: "ap1-wi-1", text: "Ich kann Anschaffungs- und Betriebskosten (Strom, Wartung, Support, Verbrauchsmaterial, Lizenzen) über die Nutzungsdauer zu Gesamtkosten (TCO) bzw. monatlichen Kosten zusammenfassen.", hot: true, ref: "lf02/beschaffung" },
         { id: "ap1-wi-2", text: "Ich kann fixe und variable Kosten unterscheiden, Kostenfunktionen aufstellen und die Menge berechnen, ab der ein Tarif günstiger wird (kritische Menge).", ref: "lf02/angebotsvergleich" },
@@ -352,7 +352,7 @@ LEARN.exam({
         { id: "ap1-hw-4", text: "Ich kann einen Bildschirmarbeitsplatz ergonomisch bewerten und Verbesserungen vorschlagen (Höhe und Abstand des Monitors, blendfreie Aufstellung, Stuhl und Tisch, Tastatur, Beleuchtung, Pausen).", hot: true, ref: "lf02/ergonomie" },
         { id: "ap1-hw-5", text: "Ich kann Datenblattwerte mit den Anforderungen abgleichen und fehlende oder überdimensionierte Komponenten erkennen.", ref: "lf02/kundenbedarf" }
       ] },
-    { id: "software", title: "04.03 Software bedarfsgerecht auswählen", lf: ["lf02", "lf05"],
+    { id: "software", title: "04.03 Software bedarfsgerecht auswählen", lf: ["lf02", "lf04", "lf05"],
       items: [
         { id: "ap1-sw-1", text: "Ich kann Betriebssysteme nach Einsatzzweck (Client, Server, mobil) auswählen und Grundfunktionen erklären (Dateiverwaltung, Freigaben einrichten und berechtigen).", ref: "lf02/betriebssysteme" },
         { id: "ap1-sw-2", text: "Ich kann Bestandteile und Vorteile einer integrierten Entwicklungsumgebung nennen (Editor, Compiler bzw. Interpreter, Debugger, Versionsverwaltung).", ref: "lf05/sprachen" },
@@ -368,7 +368,7 @@ LEARN.exam({
         { id: "ap1-li-3", text: "Ich kann Pay-per-Use- und Abo-Modelle mit Kaufmodellen vergleichen und die Kosten über eine Laufzeit berechnen.", ref: "lf02/beschaffung" },
         { id: "ap1-li-4", text: "Ich kann Folgen eines Lizenzverstoßes nennen (Unterlassung, Schadensersatz, Nachlizenzierung, Imageschaden).", ref: "lf04/urheberrecht-lizenzen" }
       ] },
-    { id: "installation", title: "04.05 Installation, Konfiguration, Kommandozeile und Netzwerkverbindungen", lf: ["lf02", "lf03", "lf09"],
+    { id: "installation", title: "04.05 Installation, Konfiguration, Kommandozeile und Netzwerkverbindungen", lf: ["lf02", "lf03", "lf09", "lf10"],
       items: [
         { id: "ap1-ik-1", text: "Ich kann Hardware fachgerecht einbauen und in Betrieb nehmen (ESD-Schutz, sinnvolle Reihenfolge, Treiber, Funktionstest).", ref: "lf02/gehaeuse-netzteil" },
         { id: "ap1-ik-2", text: "Ich kann ein Betriebssystem installieren und einrichten (Benutzer, Updates, Energieoptionen) und Anwendungen an Kundenwünsche anpassen (Einstellungen, Vorlagen, Add-ins, Standardwerte, Autostart).", ref: "lf02/betriebssysteme" },
@@ -422,7 +422,7 @@ LEARN.exam({
         { id: "ap1-qg-3", text: "Ich kann die Bedeutung von QS-Normen grob beschreiben (z. B. ISO 9001 als Norm für Anforderungen an ein QM-System).", ref: "lf06/optimierung" },
         { id: "ap1-qg-4", text: "Ich kann Ablauf und Nutzen einer Zertifizierung erklären (Prüfung durch eine unabhängige Stelle, befristetes Zertifikat, regelmäßige Überwachung, Vertrauen der Kunden).", ref: "lf06/optimierung" }
       ] },
-    { id: "qm-praxis", title: "05.02 Qualitätsmanagement im eigenen Arbeitsbereich", lf: ["lf03", "lf05", "lf06"],
+    { id: "qm-praxis", title: "05.02 Qualitätsmanagement im eigenen Arbeitsbereich", lf: ["lf02", "lf03", "lf05", "lf06", "lf12"],
       items: [
         { id: "ap1-qp-1", text: "Ich kann eine Qualitätsplanung durchführen: den Ist-Zustand ermitteln und messbare Qualitätsziele (Soll-Zustand) festlegen.", ref: "lf06/optimierung" },
         { id: "ap1-qp-2", text: "Ich kann Qualitätslenkung als Umsetzung der Planung beschreiben (Arbeitsanweisungen, Checklisten, Prüfungen während der Durchführung).", ref: "lf06/optimierung" },
@@ -462,7 +462,7 @@ LEARN.exam({
         { id: "ap1-sk-3", text: "Ich kann Risiken in einer Matrix aus Eintrittswahrscheinlichkeit und Schadenshöhe einordnen und daraus den Handlungsbedarf ableiten.", ref: "lf04/risikoanalyse" },
         { id: "ap1-sk-4", text: "Ich kann Aufgabe und Elemente eines ISMS erklären (Sicherheitsleitlinie, Rollen, Sicherheitsprozess nach PDCA) und meinen eigenen Beitrag dazu beschreiben.", ref: "lf04/isms-iso27001" }
       ] },
-    { id: "sicherheit-umsetzen", title: "06.04 Sicherheitskonzept umsetzen", lf: ["lf04", "lf09"],
+    { id: "sicherheit-umsetzen", title: "06.04 Sicherheitskonzept umsetzen", lf: ["lf04", "lf09", "lf10"],
       items: [
         { id: "ap1-su-1", text: "Ich kann Security by Design und Security by Default erklären und an einem Produkt- oder Konfigurationsbeispiel zeigen.", ref: "lf04/massnahmen" },
         { id: "ap1-su-2", text: "Ich kann zu einer Gefährdung passende technische (auch infrastrukturelle), organisatorische und personelle Maßnahmen vorschlagen und in den Sicherheitsprozess (planen, umsetzen, prüfen, verbessern) einordnen.", ref: "lf04/massnahmen" },
@@ -478,7 +478,7 @@ LEARN.exam({
         { id: "ap1-su-12", text: "Ich kann Schadsoftware (Virus, Wurm, Trojaner, Ransomware, Spyware) und Angriffe wie Phishing unterscheiden und passende Gegenmaßnahmen zuordnen.", hot: true, ref: "lf04/malware" }
       ] },
     /* ---------- Fragenkomplex 07: Leistungen erbringen und Auftrag abschließen ---------- */
-    { id: "vertraege", title: "07.01 Vertragsarten, Vertragsbestandteile und Vertragsstörungen", lf: ["lf02", "lf06"],
+    { id: "vertraege", title: "07.01 Vertragsarten, Vertragsbestandteile und Vertragsstörungen", lf: ["lf02", "lf06", "lf12"],
       items: [
         { id: "ap1-vt-1", text: "Ich kann erklären, wie ein Kaufvertrag zustande kommt (zwei übereinstimmende Willenserklärungen: Antrag und Annahme), und die Pflichten von Käufer und Verkäufer nennen.", ref: "lf02/beschaffung" },
         { id: "ap1-vt-2", text: "Ich kann Kauf, Miete und Leasing unterscheiden (Eigentum, Nutzungsrecht, Leasinggeber und Leasingnehmer, Service, Vertragsende) und für ein Szenario eine Empfehlung geben.", hot: true, ref: "lf02/beschaffung" },
@@ -489,14 +489,14 @@ LEARN.exam({
         { id: "ap1-vt-7", text: "Ich kann Vertragsstörungen erkennen (mangelhafte Lieferung, Lieferverzug, Annahmeverzug, Zahlungsverzug), die Rechte des Käufers nennen (zuerst Nacherfüllung, danach Rücktritt, Minderung oder Schadensersatz) und die gesetzliche Gewährleistung (2 Jahre) von der freiwilligen Garantie abgrenzen.", hot: true, ref: "lf02/beschaffung" },
         { id: "ap1-vt-8", text: "Ich kann eine Rechnung auf formale und rechnerische Richtigkeit prüfen (Positionen, Rabatt, Nettobetrag, Umsatzsteuer, Bruttobetrag, Skonto, Pflichtangaben).", hot: true, ref: "lf02/beschaffung" }
       ] },
-    { id: "ziele", title: "07.02 Unternehmensziele aus dem Leitbild ableiten", lf: ["lf01"],
+    { id: "ziele", title: "07.02 Unternehmensziele aus dem Leitbild ableiten", lf: ["lf01", "wiso"],
       items: [
         { id: "ap1-zi-1", text: "Ich kann ökonomische (Umsatz, Gewinn, Marktanteil), ökologische (Ressourcenschonung, Nachhaltigkeit) und soziale Ziele (Arbeitsbedingungen) aus einem Unternehmensleitbild herausarbeiten.", ref: "lf01/ziele-leitbild" },
         { id: "ap1-zi-2", text: "Ich kann Zielharmonie, Zielkonflikt und Zielneutralität an Beispielen erklären.", ref: "lf01/ziele-leitbild" },
         { id: "ap1-zi-3", text: "Ich kann Nachhaltigkeit (ökologisch, ökonomisch, sozial) und Green IT auf Beschaffung und Betrieb eines Arbeitsplatzes anwenden.", ref: "lf01/nachhaltigkeit-csr" },
         { id: "ap1-zi-4", text: "Ich kann Umsatz und Gewinn unterscheiden und berechnen (Gewinn = Umsatz − Kosten).", ref: "wiso/kennzahlen" }
       ] },
-    { id: "umsetzungsvarianten", title: "07.03 Umsetzungsvarianten der Leistungserbringung", lf: ["lf02", "lf06"],
+    { id: "umsetzungsvarianten", title: "07.03 Umsetzungsvarianten der Leistungserbringung", lf: ["lf02", "lf06", "lf12"],
       items: [
         { id: "ap1-uv-1", text: "Ich kann Leistungserbringung vor Ort und per Fernwartung vergleichen (Kosten, Reaktionszeit, Datenschutz, Einwilligung des Kunden, technische Voraussetzungen).", hot: true, ref: "lf06/dienstleistungen" },
         { id: "ap1-uv-2", text: "Ich kann ein Ticketsystem zur Steuerung der Leistungserbringung nutzen (Auftrag anlegen, Status pflegen, Zeiten erfassen, Abschluss dokumentieren).", ref: "lf06/incident" },
@@ -510,7 +510,7 @@ LEARN.exam({
         { id: "ap1-or-3", text: "Ich kann Vollmachten unterscheiden: Prokura (Eintragung im Handelsregister, weitreichend, mit gesetzlichen Ausnahmen) und Handlungsvollmacht (allgemeine Vollmacht, Artvollmacht, Einzelvollmacht).", ref: "lf01/vollmachten" },
         { id: "ap1-or-4", text: "Ich kann meinen eigenen Handlungs- und Entscheidungsspielraum in einem Auftrag einschätzen (z. B. Bestellgrenzen, notwendige Freigaben).", ref: "lf01/vollmachten" }
       ] },
-    { id: "change", title: "07.05 Veränderungsprozesse begleiten (Change Management)", lf: ["lf06"],
+    { id: "change", title: "07.05 Veränderungsprozesse begleiten (Change Management)", lf: ["lf06", "lf12", "kommunikation"],
       items: [
         { id: "ap1-cm-1", text: "Ich kann die Schritte eines Veränderungsprozesses erkennen und darstellen (z. B. nach Lewin: Auftauen – Verändern – Stabilisieren) und auf die Einführung einer IT-Lösung anwenden.", hot: true, ref: "lf06/change" },
         { id: "ap1-cm-2", text: "Ich kann motivierend kommunizieren und die Chancen einer Veränderung für die Betroffenen herausstellen.", ref: "kommunikation/team" },
@@ -518,14 +518,14 @@ LEARN.exam({
         { id: "ap1-cm-4", text: "Ich kann Rollen im Veränderungsprozess erkennen (Promotoren, Bremser, Skeptiker, Widerständler) und die passende Ansprache wählen.", ref: "lf06/change" },
         { id: "ap1-cm-5", text: "Ich kann Ursachen von Widerstand nennen (Angst vor Kompetenz- oder Jobverlust, Wissenslücken, schlechte Erfahrungen mit früheren Veränderungen) und Gegenmaßnahmen ableiten.", ref: "lf06/change" }
       ] },
-    { id: "uebergabe", title: "07.06 Leistungsübergabe und Einweisung planen und dokumentieren", lf: ["lf02", "lf03"],
+    { id: "uebergabe", title: "07.06 Leistungsübergabe und Einweisung planen und dokumentieren", lf: ["lf02", "lf03", "lf12", "kommunikation"],
       items: [
         { id: "ap1-ue-1", text: "Ich kann eine Einweisung oder Schulung planen (Zielgruppe, Inhalte, Methode, Dauer, Unterlagen, Erfolgskontrolle).", ref: "kommunikation/praesentation" },
         { id: "ap1-ue-2", text: "Ich kann die Inhalte eines Abnahmeprotokolls nennen (Vertragspartner, Datum und Ort, abgenommene Leistung, Prüfergebnisse, festgestellte Mängel, Frist zur Beseitigung, Unterschriften) und seine rechtliche Bedeutung erklären.", hot: true, ref: "lf12/abnahme-uebergabe" },
         { id: "ap1-ue-3", text: "Ich kann Mängelarten unterscheiden – Schlechtleistung (Qualitätsmangel), Falschlieferung, Minderlieferung (Quantitätsmangel), offene und versteckte Mängel – und die Rügepflicht unter Kaufleuten erklären.", hot: true, ref: "lf02/beschaffung" },
         { id: "ap1-ue-4", text: "Ich kann eine Übergabe mit Übergabe- bzw. Abnahmeprotokoll und Benutzerdokumentation durchführen.", ref: "lf12/abnahme-uebergabe" }
       ] },
-    { id: "abschluss", title: "07.07 Leistungserbringung bewerten und dokumentieren", lf: ["lf02", "lf06"],
+    { id: "abschluss", title: "07.07 Leistungserbringung bewerten und dokumentieren", lf: ["lf01", "lf02", "lf06", "lf12"],
       items: [
         { id: "ap1-ls-1", text: "Ich kann einen Soll-Ist-Vergleich für Zeit, Kosten und Qualität durchführen, Abweichungen absolut und in Prozent berechnen und Ursachen analysieren.", ref: "lf12/projektabschluss" },
         { id: "ap1-ls-2", text: "Ich kann eine Nachkalkulation erstellen und mit dem Angebot vergleichen.", ref: "lf01/machbarkeit-kalkulation" },
@@ -699,7 +699,7 @@ LEARN.exam({
               <li>Die Liquidität wird geschont: keine Einmalzahlung von 12.588 €, sondern gleichbleibende, gut planbare Monatsraten.</li>
               <li>Nach 36 Monaten gibt die Kanzlei die Geräte zurück und kann neue leasen – die Technik bleibt aktuell.</li>
               <li>Rücknahme und fachgerechte Entsorgung der Altgeräte übernimmt der Leasinggeber.</li>
-              <li>Die Leasingraten sind in der Regel als laufender Aufwand sofort steuerlich absetzbar; eine Abschreibung über mehrere Jahre entfällt.</li>
+              <li>Die Leasingraten sind laufende Betriebsausgaben, die sich gleichmäßig über die Laufzeit verteilen und steuerlich absetzbar sind.</li>
             </ul>
             <div class="callout achtung"><strong>Achtung:</strong> Das Argument „Service im Leasing enthalten“ zieht hier kaum, weil N1 schon drei Jahre Vor-Ort-Garantie hat. Prüfe Argumente immer am konkreten Angebot.</div>
             <p><strong>Bewertung:</strong> aa) monatliche Kosten 1 P, Gesamtkosten beider Varianten 2 P. bb) je Grund 1 P.</p>` },
@@ -944,7 +944,7 @@ ende funktion</code></pre>
             <p>cc) Begründe mit dem Datenblatt, warum ein Switch-Port nach IEEE 802.3af für diese Kamera nicht ausreicht. (1 P)</p>`,
           solution: `<p><strong>aa)</strong></p>
             <ul>
-              <li><strong>IR range: up to 40 m</strong> – Die Kamera hat eine Infrarotbeleuchtung und kann <strong>bei Dunkelheit bis zu 40 m weit</strong> aufnehmen. Wichtig, weil Paletten vor allem nachts verschwinden und der Hof dann nicht beleuchtet ist.</li>
+              <li><strong>IR range: up to 40 m</strong> – Die Kamera hat eine Infrarotbeleuchtung und kann <strong>bei Dunkelheit bis zu 40 m weit</strong> aufnehmen. Wichtig, weil Diebstähle oft im Dunkeln passieren (nachts, im Winter schon am späten Nachmittag) und die Aufnahmen auch dann verwertbar sein müssen.</li>
               <li><strong>Built-in heater</strong> – eingebaute <strong>Heizung</strong>, die den Betrieb bis −35 °C Außentemperatur ermöglicht und Beschlagen bzw. Vereisen verhindert. Wichtig, weil die Kameras im Winter an der Außenwand hängen.</li>
             </ul>
             <p><strong>bb)</strong> IP = International Protection (Schutzart nach DIN EN 60529). Die <strong>6</strong> bedeutet <strong>staubdicht</strong>, die <strong>7</strong> Schutz gegen <strong>zeitweiliges Untertauchen</strong> in Wasser. Regen und Schnee schaden der Kamera also nicht.</p>
@@ -1306,7 +1306,7 @@ coming because nobody has informed them.</code></pre>
     ende wenn
     rückgabe gesamt
 ende funktion</code></pre>
-            <p>Testaufruf: <code>berechneAuszahlung([900, 650, 450], ["A", "B", "C"], 0,40)</code></p>
+            <p>Testaufruf: <code>berechneAuszahlung(menge, klasse, preisProKg)</code> mit menge = [900, 650, 450], klasse = ["A", "B", "C"] und preisProKg = 0,40 (€ je kg)</p>
             <p>aa) Ermittle, welchen Wert die fehlerhafte Funktion beim Testaufruf zurückgibt. (1 P)</p>
             <p>bb) Nenne die drei Fehler und gib jeweils die Korrektur an. (3 P)</p>
             <p>cc) Berechne den Wert, den die korrigierte Funktion beim Testaufruf zurückgibt. (1 P)</p>`,
@@ -1366,7 +1366,7 @@ ende funktion</code></pre>
     "<strong>Rechne mit rund 0,9 Minuten pro Punkt.</strong> Eine 4-Punkte-Frage ist keine zehn Minuten wert. Wenn du feststeckst: Stelle markieren, weitermachen, am Ende zurückkommen.",
     "<strong>Bei Rechenaufgaben immer den Weg zeigen:</strong> Formel → eingesetzte Werte → Zwischenergebnis → Ergebnis mit Einheit. Auch bei einem Tippfehler im Taschenrechner bekommst du so Teilpunkte.",
     "<strong>Einheiten sind die häufigste Punktefalle:</strong> Datenmengen binär (KiB, MiB, GiB, TiB), Datenraten dezimal (Mbit/s), Byte × 8 = Bit, W ≠ kWh, netto ≠ brutto. Übernimm die Einheit und die Rundung, die die Aufgabe verlangt.",
-    "<strong>Lerne die Formeln auswendig</strong> – sie stehen weder im Katalog noch im Belegsatz: P = U × I, W = P × t, η = P_ab ÷ P_zu, Kosten = kWh × Preis, Übertragungszeit = Bit ÷ bit/s, Hosts = 2ⁿ − 2, Netzplan-Formeln, Nutzwert = Σ Gewicht × Punkte.",
+    "<strong>Lerne die Formeln auswendig</strong> – sie stehen nicht im Prüfungskatalog, und du kannst nicht damit rechnen, dass der Belegsatz sie liefert:P = U × I, W = P × t, η = P_ab ÷ P_zu, Kosten = kWh × Preis, Übertragungszeit = Bit ÷ bit/s, Hosts = 2ⁿ − 2, Netzplan-Formeln, Nutzwert = Σ Gewicht × Punkte.",
     "<strong>Achte auf den Operator:</strong> „Nennen“ = Stichwort, „beschreiben“ = ganze Sätze, „erläutern“ = mit Zusammenhang oder Beispiel, „begründen“ = mit „weil …“ und Bezug zum Szenario. Gib genau so viele Antworten, wie verlangt sind – oft werden nur die ersten gewertet.",
     "<strong>Antworte mit Bezug zur Ausgangssituation.</strong> Die Musterlösungen erwarten Argumente zum Kunden (z. B. „Da die Kanzlei Mandantendaten verarbeitet, …“) statt allgemeiner Lehrbuchsätze.",
     "<strong>Englische Texte:</strong> Beantworte die Fragen auf Deutsch, sofern nichts anderes verlangt ist. Erschließe unbekannte Wörter aus dem Zusammenhang und lerne typische Datenblattbegriffe wie power consumption, throughput, warranty, backward compatible oder operating temperature.",
