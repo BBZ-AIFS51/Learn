@@ -1281,10 +1281,10 @@ CPU:       8 cores / 16 threads | base clock 3.8 GHz | boost clock up to 5.4 GHz
       task: `<p>Ein Kunde der Nordlicht IT GmbH möchte einen älteren PC auf Windows 11 umstellen. <code>msinfo32</code> zeigt: BIOS-Modus „Legacy“, Datenträger mit MBR-Partitionsstil, TPM-Version 1.2, 8 GB RAM, 256-GB-SSD, CPU nicht auf der Kompatibilitätsliste.</p>
         <p>a) Nenne alle Punkte, die gegen Windows 11 sprechen, und beschreibe, welche davon sich durch Einstellungen beheben lassen.</p>
         <p>b) Empfiehl jeweils ein Lizenzmodell und begründe: (1) 25 Büroarbeitsplätze sollen immer die aktuelle Office-Version erhalten, (2) ein neuer Komplett-PC wird mit vorinstalliertem Windows gekauft, (3) ein Unternehmen passt eine GPL-lizenzierte Software an und gibt sie an Kunden weiter.</p>
-        <p>c) Ein USB-Stick soll zwischen Windows- und macOS-Rechnern Videodateien mit bis zu 6 GB austauschen. Wähle ein Dateisystem und begründe, warum FAT32 und NTFS weniger geeignet sind.</p>`,
+        <p>c) Ein USB-Stick soll zwischen Windows- und macOS-Rechnern Videodateien mit bis zu 6 GiB austauschen. Wähle ein Dateisystem und begründe, warum FAT32 und NTFS weniger geeignet sind.</p>`,
       solution: `<p><strong>a)</strong> Gegen Windows 11 sprechen: <strong>Legacy-BIOS statt UEFI</strong> (damit kein Secure Boot), <strong>MBR statt GPT</strong>, <strong>TPM 1.2 statt 2.0</strong> und die <strong>nicht unterstützte CPU</strong>. RAM (8 GB ≥ 4 GB) und SSD (256 GB ≥ 64 GB) reichen. Behebbar: MBR lässt sich in GPT umwandeln (z. B. mit dem Windows-Werkzeug MBR2GPT), danach UEFI-Modus und Secure Boot im Firmware-Menü aktivieren. TPM 1.2 und die CPU lassen sich in der Regel nicht per Einstellung ändern. → Für einen unterstützten Betrieb ist neue Hardware nötig.</p>
         <p><strong>b)</strong> (1) <strong>Abonnement</strong> (Subscription pro Nutzer): Updates auf die neueste Version sind enthalten, die Kosten sind planbar, Lizenzen lassen sich zentral zuweisen. (2) <strong>OEM-Lizenz</strong>: wird mit der Hardware ausgeliefert, ist günstig, aber an dieses Gerät gebunden. (3) <strong>Open Source unter GPL</strong>: Die Software darf verändert und weitergegeben werden, aber wegen des Copylefts muss die veränderte Version wieder unter der GPL stehen und der Quellcode mitgeliefert bzw. zugänglich gemacht werden.</p>
-        <p><strong>c)</strong> <strong>exFAT</strong>: Es wird von Windows und macOS gelesen und geschrieben und erlaubt Dateien über 4 GB. FAT32 ist zwar kompatibel, erlaubt aber höchstens 4 GiB − 1 Byte pro Datei – die 6-GB-Videos passen nicht. NTFS kann macOS standardmäßig nur lesen, nicht beschreiben.</p>`
+        <p><strong>c)</strong> <strong>exFAT</strong>: Es wird von Windows und macOS gelesen und geschrieben und erlaubt Dateien über 4 GiB. FAT32 ist zwar kompatibel, erlaubt aber höchstens 4 GiB − 1 Byte pro Datei – die 6-GiB-Videos passen nicht. NTFS kann macOS standardmäßig nur lesen, nicht beschreiben.</p>`
     },
     {
       id: "e-uebergabe",
@@ -1947,7 +1947,7 @@ Power adapter: 180 W | Dock power consumption: approx. 12 W</code></pre>
       options: ["OEM-Lizenz", "Volumenlizenz", "Retail-Lizenz (Vollversion)", "GPL"], answer: 0,
       explain: "OEM-Lizenzen liegen neuen Geräten bei, sind günstig und an dieses Gerät gebunden. Retail-Lizenzen lassen sich meist übertragen, Volumenlizenzen verwalten Unternehmen zentral, die GPL ist eine Open-Source-Lizenz." },
     { id: "q-os-3", topic: "betriebssysteme", type: "single", exam: ["AP1"],
-      q: "Welches Dateisystem erlaubt Dateien über 4 GB und kann von Windows und macOS ohne Zusatzsoftware gelesen und beschrieben werden?",
+      q: "Welches Dateisystem erlaubt Dateien über 4 GiB und kann von Windows und macOS ohne Zusatzsoftware gelesen und beschrieben werden?",
       options: ["exFAT", "FAT32", "NTFS", "ext4"], answer: 0,
       explain: "exFAT ist für Wechseldatenträger gedacht und plattformübergreifend beschreibbar. FAT32 begrenzt Dateien auf 4 GiB − 1 Byte, NTFS kann macOS standardmäßig nur lesen, ext4 ist ein Linux-Dateisystem." },
     { id: "q-os-4", topic: "betriebssysteme", type: "tf", exam: ["AP1"],

@@ -629,7 +629,7 @@ c ──────────────────────┤    │
         <ol>
           <li><strong>Discover</strong> – Client sucht per Broadcast einen DHCP-Server.</li>
           <li><strong>Offer</strong> – Server bietet eine Adresse an.</li>
-          <li><strong>Request</strong> – Client fordert die angebotene Adresse an.</li>
+          <li><strong>Request</strong> – Client fordert die angebotene Adresse an (ebenfalls per Broadcast, damit andere DHCP-Server ihr Angebot zurückziehen).</li>
           <li><strong>Acknowledge</strong> – Server bestätigt, die Lease beginnt.</li>
         </ol>
         <p>Server, Drucker und Netzwerkgeräte bekommen feste Adressen – statisch oder als DHCP-Reservierung anhand der MAC-Adresse.</p>
@@ -709,7 +709,7 @@ ping www.ihk.de         (5) Namensauflösung per DNS</code></pre>
           <tr><td>NAT</td><td>wegen Adressmangel üblich</td><td>nicht nötig</td></tr>
           <tr><td>Header</td><td>variabel, mit Prüfsumme</td><td>fest 40 Byte, ohne Prüfsumme, Erweiterungs-Header</td></tr>
         </tbody></table>
-        <div class="callout pruefung"><strong>So kommt es in der Prüfung dran:</strong> „Kürzen Sie die folgende IPv6-Adresse“ bzw. „Schreiben Sie sie vollständig aus“, „Nennen Sie zwei Unterschiede zwischen IPv4 und IPv6“, „Ordnen Sie die Adresse fe80::… einem Adresstyp zu“. Diese Aufgaben kamen in der AP1 mehrfach vor.</div>
+        <div class="callout pruefung"><strong>So kommt es in der Prüfung dran:</strong> „Kürzen Sie die folgende IPv6-Adresse“ bzw. „Schreiben Sie sie vollständig aus“, „Nennen Sie zwei Unterschiede zwischen IPv4 und IPv6“, „Ordnen Sie die Adresse fe80::… einem Adresstyp zu“. IPv6 kam in 4 der 10 AP1-Prüfungen von Herbst 2021 bis Frühjahr 2026 vor (zusammen rund 28 Punkte).</div>
       `
     },
     {
@@ -734,7 +734,7 @@ ping www.ihk.de         (5) Namensauflösung per DNS</code></pre>
         <table><thead><tr><th>Band</th><th>Vorteile</th><th>Nachteile</th></tr></thead><tbody>
           <tr><td>2,4 GHz</td><td>größere Reichweite, dringt besser durch Wände, von allen Geräten unterstützt</td><td>nur drei überlappungsfreie Kanäle (z. B. 1, 6, 11), Störungen durch Bluetooth, Mikrowellen, Nachbarnetze</td></tr>
           <tr><td>5 GHz</td><td>viele Kanäle, höhere Datenraten, weniger Störungen</td><td>geringere Reichweite; auf manchen Kanälen DFS (Ausweichen bei Radar)</td></tr>
-          <tr><td>6 GHz</td><td>viel freies Spektrum, breite Kanäle, kaum Altgeräte</td><td>noch geringere Reichweite, nur neue Geräte (Wi-Fi 6E/7), WPA3 Pflicht; in der EU ist für WLAN derzeit nur der untere Teil (5.945–6.425 MHz) freigegeben</td></tr>
+          <tr><td>6 GHz</td><td>viel freies Spektrum, breite Kanäle, kaum Altgeräte</td><td>noch geringere Reichweite, nur neue Geräte (Wi-Fi 6E/7), WPA3 Pflicht; in der EU ist für WLAN nur der untere Teil (5.945–6.425 MHz) freigegeben (Stand 2026; über den oberen Teil wird auf EU-Ebene noch entschieden)</td></tr>
         </tbody></table>
         <h5>Betriebsarten</h5>
         <ul>

@@ -60,7 +60,7 @@ LEARN.module({
           <tr><td>2</td><td>Sicherung (Data Link)</td><td>physikalische Adressierung (MAC), Rahmenbildung, Fehlererkennung (FCS), Zugriff aufs Medium</td><td>Ethernet (IEEE 802.3), WLAN (802.11), 802.1Q</td><td>Switch, Bridge, Access Point, Netzwerkkarte</td><td>Rahmen (Frame)</td></tr>
           <tr><td>1</td><td>Bitübertragung (Physical)</td><td>Bits als elektrische, optische oder Funksignale übertragen; Kabel, Stecker</td><td>1000BASE-T, 10GBASE-SR, RJ45</td><td>Hub, Repeater, Medienkonverter</td><td>Bit</td></tr>
         </tbody></table>
-        <div class="callout tipp"><strong>Eselsbrücken:</strong> von 7 nach 1 „<strong>A</strong>lle <strong>D</strong>eutschen <strong>S</strong>chüler <strong>T</strong>rinken <strong>V</strong>erschiedene <strong>S</strong>orten <strong>B</strong>ier“ (Anwendung, Darstellung, Sitzung, Transport, Vermittlung, Sicherung, Bitübertragung). Von 1 nach 7: „<strong>P</strong>lease <strong>D</strong>o <strong>N</strong>ot <strong>T</strong>hrow <strong>S</strong>alami <strong>P</strong>izza <strong>A</strong>way“.</div>
+        <div class="callout tipp"><strong>Eselsbrücken:</strong> von 7 nach 1 „<strong>A</strong>lle <strong>D</strong>eutschen <strong>S</strong>chüler <strong>T</strong>rinken <strong>V</strong>erschiedene <strong>S</strong>orten <strong>B</strong>ier“ (Anwendung, Darstellung, Sitzung, Transport, Vermittlung, Sicherung, Bitübertragung). Von 1 nach 7: „<strong>P</strong>lease <strong>D</strong>o <strong>N</strong>ot <strong>T</strong>hrow <strong>S</strong>ausage <strong>P</strong>izza <strong>A</strong>way“.</div>
         <h5>Das TCP/IP-Modell (DoD-Modell)</h5>
         <p>Das TCP/IP-Modell stammt aus dem ARPANET-Projekt des US-Verteidigungsministeriums (<em>Department of Defense</em>) und beschreibt die Praxis im Internet. Das OSI-Modell (ISO) ist ein <strong>Referenzmodell</strong> zum Einordnen.</p>
         <table><thead><tr><th>TCP/IP-Schicht</th><th>entspricht OSI</th><th>Beispiele</th></tr></thead><tbody>
@@ -254,7 +254,7 @@ Schicht 1   Bits  0110100101110100101011 ...</pre>
         <p>Weil die Einsen lückenlos sind, gibt es pro Oktett nur neun Werte: <strong>0, 128, 192, 224, 240, 248, 252, 254, 255</strong>. Eine Maske wie 255.255.255.228 (<code>11100100</code>) ist deshalb ungültig.</p>
         <div class="callout merke"><strong>Merke:</strong> Netzadresse = alle Hostbits 0, Broadcast = alle Hostbits 1, dazwischen liegen die Hosts. Privat sind nur 10/8, 172.16/12 und 192.168/16.</div>
         <div class="callout achtung"><strong>Prüfungsfallen:</strong> 172.32.0.1 ist <em>öffentlich</em> (privat nur bis 172.31.255.255). Eine 169.254.x.x-Adresse bedeutet „kein DHCP-Server erreichbar“. Netz- und Broadcast-Adresse dürfen keinem Gerät zugewiesen werden – deshalb „− 2“.</div>
-        <div class="callout pruefung"><strong>So kommt es in der Prüfung dran:</strong> „<em>Prüfen Sie</em>, ob die Adresse privat oder öffentlich ist“, „<em>Ermitteln Sie</em> Netzadresse, Broadcast und Anzahl der Hosts“, „<em>Geben Sie</em> die Maske in CIDR-Schreibweise an“, „<em>Tragen Sie</em> IP, Maske und Gateway in die Tabelle ein“ – in fast jeder AP1 mit 2–8 Punkten.</div>
+        <div class="callout pruefung"><strong>So kommt es in der Prüfung dran:</strong> „<em>Prüfen Sie</em>, ob die Adresse privat oder öffentlich ist“, „<em>Ermitteln Sie</em> Netzadresse, Broadcast und Anzahl der Hosts“, „<em>Geben Sie</em> die Maske in CIDR-Schreibweise an“, „<em>Tragen Sie</em> IP, Maske und Gateway in die Tabelle ein“ – seit dem neuen Prüfungskatalog (ab Frühjahr 2025) in jeder AP1, meist mit 2–8 Punkten.</div>
       `
     },
     {
@@ -740,7 +740,7 @@ R1(config-if)# ipv6 address 2001:db8:acad:10::1/64
 R1(config-if)# ipv6 address fe80::1 link-local</code></pre>
         <div class="callout merke"><strong>Merke:</strong> Ein IPv6-LAN ist immer ein /64: Provider-Präfix + Subnet-ID + 64 Bit Interface-ID. Jede Schnittstelle hat automatisch eine Link-Local-Adresse (fe80::) und meist zusätzlich eine globale Adresse.</div>
         <div class="callout achtung"><strong>Prüfungsfallen:</strong> <code>::</code> nur einmal! Nur führende Nullen streichen, nie nachgestellte (<code>0c01</code> → <code>c01</code>, nicht <code>0c</code>). fe80:: ist Link-Local, fd00:: ist ULA. IPv6 ist nicht automatisch sicher – ohne NAT braucht es erst recht eine Firewall.</div>
-        <div class="callout pruefung"><strong>So kommt es in der Prüfung dran:</strong> In fast jeder AP1: „<em>Kürzen Sie</em> die IPv6-Adresse“ bzw. „<em>Schreiben Sie</em> sie vollständig aus“, „<em>Nennen Sie</em> zwei Unterschiede zwischen IPv4 und IPv6“, „<em>Erläutern Sie</em> SLAAC“; in der AP2 zusätzlich Adresstypen, Präfixplanung und EUI-64.</div>
+        <div class="callout pruefung"><strong>So kommt es in der Prüfung dran:</strong> Häufig in der AP1 (in 4 der 10 Prüfungen von Herbst 2021 bis Frühjahr 2026, zusammen rund 28 Punkte): „<em>Kürzen Sie</em> die IPv6-Adresse“ bzw. „<em>Schreiben Sie</em> sie vollständig aus“, „<em>Nennen Sie</em> zwei Unterschiede zwischen IPv4 und IPv6“, „<em>Erläutern Sie</em> SLAAC“; in der AP2 zusätzlich Adresstypen, Präfixplanung und EUI-64.</div>
       `
     },
     {
@@ -2603,7 +2603,7 @@ R1# copy running-config startup-config</code></pre>
     { term: "Administrative Distanz", def: "Vertrauenswert einer Routenquelle bei Cisco (z. B. statisch 1, OSPF 110, RIP 120); die kleinere gewinnt." },
     { term: "OSPF", def: "Open Shortest Path First – Link-State-Routingprotokoll, berechnet mit Dijkstra die kostengünstigsten Wege auf Basis der Bandbreite." },
     { term: "RIP", def: "Routing Information Protocol – Distanzvektor-Protokoll mit der Hop-Anzahl als Metrik (maximal 15 Hops)." },
-    { term: "Spanning Tree Protocol (STP)", def: "Protokoll nach IEEE 802.1D, das in redundanten Switch-Netzen Schleifen verhindert, indem es Ports logisch blockiert." },
+    { term: "Spanning Tree Protocol (STP)", def: "Protokoll (ursprünglich IEEE 802.1D, heute Teil von IEEE 802.1Q), das in redundanten Switch-Netzen Schleifen verhindert, indem es Ports logisch blockiert." },
     { term: "VLAN", def: "Virtuelles LAN – logisch getrennte Broadcast-Domäne innerhalb einer physischen Switch-Infrastruktur." },
     { term: "Trunk", def: "Switch-Port bzw. Verbindung, die Frames mehrerer VLANs mit 802.1Q-Tags über eine Leitung überträgt." },
     { term: "IEEE 802.1Q", def: "Standard für VLAN-Tagging: 4-Byte-Tag im Ethernet-Frame mit 12-Bit-VLAN-ID und 3-Bit-Priorität." },
